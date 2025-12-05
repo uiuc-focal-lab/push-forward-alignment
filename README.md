@@ -2,7 +2,7 @@
 | [Paper 📝](https://jason-vega.github.io/papers/presto.pdf) | [Project Page 💻 (Coming Soon!)](https://github.com/uiuc-focal-lab/push-forward-alignment/#) |
 | :----------: | :----------: |
 
-# Deep Safety Alignment with PRefill attEntion STOpping (PRESTO)
+## Deep Safety Alignment with PRefill attEntion STOpping (PRESTO)
 For the deep safety alignment fine-tuning (with and without PRESTO) in our paper, we utilized the [repository](https://github.com/Unispac/shallow-vs-deep-alignment) of [[1]](#1) with slight modifications (specifically, adding support for Qwen 3 and Gemma 3, and implementing the PRESTO regularization). In this repository, we provide our own full implementation of deep safety alignment in [deep_safety_alignment.py](deep_safety_alignment.py) for convenience.
 
 Example usage:
@@ -22,5 +22,7 @@ Example usage:
 
 To enable PRESTO regularization, simply add `--presto`.
 
-# References
+## More documentation coming soon!
+
+## References
 <a id="1">[1]</a> Qi, Xiangyu, et al. "Safety Alignment Should be Made More Than Just a Few Tokens Deep." The Thirteenth International Conference on Learning Representations.
