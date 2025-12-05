@@ -30,9 +30,9 @@ DEFAULT_EPOCHS = 10
 DEFAULT_LEARNING_RATE = 2e-5
 DEFAULT_MAX_SEQ_LEN = 512
 DEFAULT_MAX_PREFILL = 100
-DEFAULT_SAFETY_BATCH_SIZE = 1
-DEFAULT_UTILITY_BATCH_SIZE = 4
-DEFAULT_GRADIENT_ACCUMULATION_STEPS = 4 # Assuming 4 devices
+DEFAULT_SAFETY_BATCH_SIZE = 4
+DEFAULT_UTILITY_BATCH_SIZE = 16
+DEFAULT_GRADIENT_ACCUMULATION_STEPS = 1
 
 SYSTEM_PROMPT = """You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
 
