@@ -7,17 +7,17 @@ For the deep safety alignment fine-tuning (with and without PRESTO) in our paper
 
 Example usage:
 ```
-  accelerate launch --config_file accelerate_config_dsa.yaml deep_safety_alignment.py \
-    --model meta-llama/Llama-2-7b-chat-hf \
-    --safety_dataset_path datasets/llama2_safety_data_direct.jsonl \
-    --utility_dataset_path datasets/llama2_alpaca_anchor.json \
-    --system_prompt \
-    --safety_batch_size_per_device 2 \
-    --utility_batch_size_per_device 8 \
-    --gradient_accumulation_steps 2 \
-    --save_dir models/llama_2_7b_chat_da \
-    --show_batch_tqdm \
-    --wandb_run_name llama_2_7b_chat_da
+accelerate launch --config_file accelerate_config_dsa.yaml deep_safety_alignment.py \
+  --model meta-llama/Llama-2-7b-chat-hf \
+  --safety_dataset_path datasets/llama2_safety_data_direct.jsonl \
+  --utility_dataset_path datasets/llama2_alpaca_anchor.json \
+  --system_prompt \
+  --safety_batch_size_per_device 2 \
+  --utility_batch_size_per_device 8 \
+  --gradient_accumulation_steps 2 \
+  --save_dir models/llama_2_7b_chat_da \
+  --show_batch_tqdm \
+  --wandb_run_name llama_2_7b_chat_da
 ```
 
 To enable PRESTO regularization, simply add `--presto`.
