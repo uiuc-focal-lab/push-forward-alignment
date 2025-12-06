@@ -20,7 +20,7 @@ accelerate launch --config_file accelerate_config_dsa.yaml deep_safety_alignment
   --wandb_run_name llama_2_7b_chat_da
 ```
 
-To enable PRESTO regularization, simply add `--presto`.
+(Llama 2 datasets can be found [here](https://huggingface.co/datasets/Unispac/shallow-vs-deep-safety-alignment-dataset/tree/main/data/tasks/data_augmentation).) To enable PRESTO regularization, simply add `--presto`.
 
 ## More documentation coming soon!
 
