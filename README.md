@@ -1,5 +1,5 @@
 # Matching Ranks Over Probability Yields Truly Deep Safety Alignment
-| [Paper 📝](https://jason-vega.github.io/papers/presto.pdf) | [Project Page 💻 (Coming Soon!)](https://github.com/uiuc-focal-lab/push-forward-alignment/#) |
+| [Paper 📝](https://arxiv.org/abs/2512.05518) | [Project Page 💻 (Coming Soon!)](https://github.com/uiuc-focal-lab/push-forward-alignment/#) |
 | :----------: | :----------: |
 
 ## Deep Safety Alignment with PRefill attEntion STOpping (PRESTO)
